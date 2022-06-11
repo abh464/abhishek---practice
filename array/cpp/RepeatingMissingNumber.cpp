@@ -24,7 +24,7 @@ int *repeatingMissingNumberBruteForce(int *arr, int arrLength) {
         }
     }
 
-        for(int i=0;i<arrLength;i++){
+    for(int i=0;i<arrLength;i++){
         if (i == arrLength-1){
             break;
         }
@@ -34,7 +34,6 @@ int *repeatingMissingNumberBruteForce(int *arr, int arrLength) {
             break;
         }
     }
-
 
     return result;
 }
