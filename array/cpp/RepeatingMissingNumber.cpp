@@ -35,7 +35,6 @@ int *repeatingMissingNumberBruteForce(int *arr, int arrLength) {
         }
     }
 
-
     return result;
 }
 
