@@ -2,7 +2,7 @@ def repeating_missing_number_brute_force(arr):
     arr_length = len(arr)
     
     arr.sort()
-    print(arr)
+    # print(arr)
     result = [0,0]
 
     for i in range(arr_length):
