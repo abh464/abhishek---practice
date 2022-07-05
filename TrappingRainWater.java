@@ -25,6 +25,7 @@ public class TrappingRainWater {
             
             for(int i = 0 ; i < height.size() ; i++){
                 
+            
                 sum  += Math.min(left[i] , right[i]) - height.get(i);
                
             }
@@ -33,6 +34,7 @@ public class TrappingRainWater {
 
 public static void main(String args[]){
 
+    // Input heights of building in a form of a array 
     List<Integer> height = new ArrayList<Integer>(Arrays.asList(0 , 1, 0 , 2, 1 , 0 , 1 ,3, 2 ,1 , 2 ,1));
 
     System.out.print("Total water Trapped will be : "+Trapping_Rain_Water(height));
