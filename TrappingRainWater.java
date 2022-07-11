@@ -36,7 +36,8 @@ public static void main(String args[]){
 
     
     List<Integer> height = new ArrayList<Integer>(Arrays.asList(0 , 1, 0 , 2, 1 , 0 , 1 ,3, 2 ,1 , 2 ,1));
-
+    
+    // Input array is given here
     System.out.print("Total water Trapped will be : "+Trapping_Rain_Water(height));
 }
 }
